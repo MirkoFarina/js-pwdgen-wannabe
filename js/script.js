@@ -9,7 +9,7 @@ const coloreUtente = prompt('Qual è il tuo colore preferito?');
 
 document.getElementById('password-generata').innerHTML= `
   La tua password generata (livello sicurezza = 0) è: <br>       
-  <span class="white"> ${ nomeUtente}${cognomeUtente}${coloreUtente}22 </span> <br>
+  <span class="blue"> ${ nomeUtente}${cognomeUtente}${coloreUtente}22 </span> <br>
   <strong class="red"> ATTENZIONE LA PASSWORD SI AUTODISTRUGGERÁ NON APPENA LASCERAI QUESTA PAGINA !!!!!!!!!!!!!!!!!!!!!!!!!!!! </strong>
 `;
 
