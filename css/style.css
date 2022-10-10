@@ -1,0 +1,40 @@
+body {
+  background-color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 50px;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: blue;
+}
+
+.container-password {
+  display: flex;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+}
+
+.container-password p {
+  padding: 50px;
+  background-color: rgba(0, 255, 55, .5);
+  border-radius: 40px;
+}
+
+.container-password #ps {
+  font-size: .7rem;
+}
+
+#scam {
+  align-self: flex-end;
+  font-size: .9rem;
+  line-height: 20px;
+}
